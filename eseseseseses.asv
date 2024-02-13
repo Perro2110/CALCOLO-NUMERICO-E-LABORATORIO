@@ -1,0 +1,5 @@
+x=sym("x")
+f=@(x) (tan(1-x)-2/3)
+fp=diff(sym(f))
+fpp=diff(sym(fp))
+abs()
